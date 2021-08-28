@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479197598435",
+    "project_id": "nickroh-s-account",
+    "storage_bucket": "nickroh-s-account.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479197598435:android:faa567b4570bc659686bd6",
+        "android_client_info": {
+          "package_name": "com.example.account_book"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479197598435-d2dgsfsll7ed6vth0qvbg8m97p65cn8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-JKDEkd7YJPauFZD-JvReLLvzbUr3eRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479197598435-d2dgsfsll7ed6vth0qvbg8m97p65cn8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
