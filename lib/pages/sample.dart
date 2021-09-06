@@ -9,21 +9,35 @@ class sample extends StatefulWidget{
 
 
 class _sampleState extends State<sample>{
+
+  PageController _pageController;
+  int currentIndex;
+
+  void initState(){
+    _pageController = PageController();
+    currentIndex = 0;
+  }
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Welcome to Flutter'),
-        ),
-        body: Center(
-          child: Text('Hello World'),
+    return Scaffold(
+      body: SizedBox.expand(
+        child: PageView(
+          controller: _pageController,
+          onPageChanged: (index) {
+            setState(() => currentIndex = index);
+          },
+            children: <Widget>[
+
+            ],
         ),
       ),
     );
-    throw UnimplementedError();
   }
   
 }
