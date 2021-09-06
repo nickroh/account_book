@@ -33,11 +33,16 @@ class _sampleState extends State<sample>{
             setState(() => currentIndex = index);
           },
             children: <Widget>[
-
+              mainscreen(),
             ],
         ),
       ),
     );
   }
-  
+  Widget mainscreen(){
+    return new Scaffold(
+
+    );
+  }
+
 }

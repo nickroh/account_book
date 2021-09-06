@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // import 'package:minjok_herald/pages/auth/authentication.dart';
 // import 'package:minjok_herald/pages/auth/root_page.dart';
-import 'package:account_book/pages/sample.dart';
+import 'package:account_book/pages/mainpage.dart';
 import 'dart:async';
 
 void main() {
